@@ -1,0 +1,30 @@
+{
+  "name": "recruitment-kanban-board-bhatia-t1",
+  "version": "1.0.0",
+  "description": "Trello-style Recruitment Kanban Board [BHATIA-T1] with Drag-Drop Pipeline, jQuery 3.7, jQuery UI Sortable, and JSON Server",
+  "main": "index.html",
+  "scripts": {
+    "server": "json-server db.json --port 3000",
+    "start": "json-server db.json --port 3000",
+    "serve": "npx serve -l 8080 .",
+    "build:data": "node build-data.js"
+  },
+  "keywords": [
+    "recruitment",
+    "kanban",
+    "drag-drop",
+    "jquery",
+    "jquery-ui",
+    "json-server",
+    "pipeline",
+    "bhatia-t1"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}
